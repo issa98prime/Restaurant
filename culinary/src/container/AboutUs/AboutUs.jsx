@@ -13,8 +13,9 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-        <button type="button" className="custom__button">Know More</button>
+        <p className="p__opensans">We embrace innovation and creativity in our culinary creations, constantly exploring new flavors, techniques, and presentations to surprise and delight our guests.
+          In Hospitality and Service our team is dedicated to providing warm, welcoming hospitality and exceptional service to ensure that every guest feels valued and cared for throughout their dining experience.</p>
+        {/* <button type="button" className="custom__button">Know More</button> */}
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -24,8 +25,8 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
-        <button type="button" className="custom__button">Know More</button>
+        <p className="p__opensans">From humble beginnings as a small neighborhood eatery, we quickly gained recognition for our commitment to quality ingredients, innovative cuisine, and exceptional hospitality. Over the years, we have grown and evolved, expanding our menu offerings, refining our techniques, and creating a welcoming atmosphere that feels like home to our guests.</p>
+        {/* <button type="button" className="custom__button">Know More</button> */}
       </div>
     </div>
   </div>

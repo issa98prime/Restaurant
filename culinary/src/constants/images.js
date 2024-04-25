@@ -20,6 +20,9 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import culinary from '../assets/culinary.png';
+import calinary from '../assets/calinary.png';
+
 
 export default {
   bg,
@@ -44,4 +47,6 @@ export default {
   sign,
   quote,
   gericht,
+  culinary,
+  calinary,
 };

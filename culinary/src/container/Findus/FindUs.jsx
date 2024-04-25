@@ -14,7 +14,7 @@ const FindUs = () => (
         <p className="p__opensans">Mon - Fri: 10:00 am - 02:00 am</p>
         <p className="p__opensans">Sat - Sun: 10:00 am - 03:00 am</p>
       </div>
-      <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button>
+      <a target='_blank' href='https://www.google.com/search?q=380+McKinley+St%2C+Corona%2C+CA+92879%2C+USA&oq=380+McKinley+St%2C+Corona%2C+CA+92879%2C+USA&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBNIBBzkxOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8'>      <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button></a>
     </div>
 
     <div className="app__wrapper_img">

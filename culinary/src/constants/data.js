@@ -58,25 +58,58 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'City Recognition',
+    subtitle: 'We are recognised all around as the best.',
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.award02,
+    title: 'Rising Star',
+    subtitle: 'Known to many as the bright and upcoming .',
   },
   {
     imgUrl: images.award03,
+    title: 'AA Hospitality',
+    subtitle: 'Hospitality comes first in our culinary universe.',
+  },
+  {
+    imgUrl: images.award05,
     title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'All the chefs at work are famously recognised.',
   },
 ];
 
-export default { wines, cocktails, awards };
+const foods = [
+  {
+    title: 'Del Taco',
+    price: '$20',
+    tags: 'Fast Food | Mexican | Tacos',
+  },
+  {
+    title: 'Orange Chicken Bowl',
+    price: '$25',
+    tags: 'Asian | Chinese',
+  },
+  {
+    title: 'Carne Asada',
+    price: '$19',
+    tags: 'Mexican | Fast Food',
+  },
+  {
+    title: 'Asada Torta',
+    price: '$12',
+    tags: 'Mexican | Porta',
+  },
+  {
+    title: 'Bowl and Egg Roll',
+    price: '$26',
+    tags: 'Spicy Kung Pao | Chinese',
+  },
+  {
+    title: 'Teriyaki Chicken Bowl',
+    price: '$9',
+    tags: 'Chinese', 
+  },
+];
+
+export default { wines, cocktails, awards, foods };
